@@ -32,11 +32,20 @@ ImgProc.init("image.png").then(() => {
 Follow these steps to use this library in your own project.  
 1. Clone the repo.
 ```
-git clone https://github.com/Rclodeca/Image-Processing-Library
+$ git clone https://github.com/Rclodeca/Image-Processing-Library
+$ cd Image-Processing-Library
 ```
-2. Require.
+2. Install dependencies
+```javascript
+$ npm install
+```
+3. Require to use the project
 ```javascript
 const ImageProcessor = require('Path_to_index.js_here');
+```
+Additionally to test it:
+```javascript
+$ npm test
 ```
 Ideally this would actually be an `npm install ImageProcessor`
 ## API Reference
